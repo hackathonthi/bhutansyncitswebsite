@@ -12,7 +12,7 @@
             <div class="collapse navbar-collapse text-center" id="navigation">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>web/index">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -20,8 +20,8 @@
                             Company
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#" onclick="loadpage('about')">About Us</a>
-                            <a class="dropdown-item" href="service.html">Services</a>
+                            <a class="dropdown-item" href="<?php echo base_url(); ?>web/about/about">About Us</a>
+                            <a class="dropdown-item" href="<?php echo base_url(); ?>web/service/service">Services</a>
                             <a class="dropdown-item" href="career.html">Career</a>
                             <a class="dropdown-item" href="testimonial.html">Testimonials</a>
                             <a class="dropdown-item" href="faq.html">Faq</a>

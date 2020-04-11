@@ -36,32 +36,32 @@
 
           <div class="img-gallery">
             <div class="img-container">
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
-                <img src="images/gallery/1.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/1.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/1.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
-                <img src="images/gallery/2.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/2.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/2.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
-                <img src="images/gallery/3.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/3.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/3.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
-                <img src="images/gallery/4.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/4.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/4.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
-                <img src="images/gallery/5.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/5.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/5.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-                <img src="images/gallery/6.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/6.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/6.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-                <img src="images/gallery/7.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/6.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/7.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-                <img src="images/gallery/8.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/6.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/8.jpg" alt="">
               </a>
-              <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-                <img src="images/gallery/9.jpg" alt="">
+              <a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url();?>assest/images/gallery/6.jpg">
+                <img src="<?php echo base_url();?>assest/images/gallery/9.jpg" alt="">
               </a>
             </div>
           </div>
@@ -138,9 +138,7 @@
     </div>
   </section>
 </div>
-<script src="<?php echo base_url();?>assest/JqueryAjaxFormSubmit.js"></script>
-<script src="<?php echo base_url();?>assest/jquery.form.js"></script>
-<script src="<?php echo base_url();?>assest/jquery-blockUI.js"></script>
+
 <script type="text/javascript">
 	function loadpage(type){
     	$.blockUI
@@ -177,6 +175,7 @@
 <script type="text/javascript" src="<?php echo base_url();?>assest/website/plugins/cd-hero/cd-hero.js"></script>
 <!-- Isotope -->
 <script type="text/javascript" src="<?php echo base_url();?>assest/website/plugins/isotope.js"></script>
+
 <script type="text/javascript" src="<?php echo base_url();?>assest/website/plugins/ini.isotope.js"></script>
 <!-- Wow Animation -->
 <script type="text/javascript" src="<?php echo base_url();?>assest/website/plugins/wow.min.js"></script>
@@ -192,3 +191,6 @@
 
 <!-- Main Script -->
 <script src="<?php echo base_url();?>assest/website/js/script.js"></script>
+<script src="<?php echo base_url();?>assest/JqueryAjaxFormSubmit.js"></script>
+<script src="<?php echo base_url();?>assest/jquery.form.js"></script>
+<script src="<?php echo base_url();?>assest/jquery-blockUI.js"></script>

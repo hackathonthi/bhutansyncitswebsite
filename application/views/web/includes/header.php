@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Bhutansync Its</title>
-	<link rel="icon" href="<?php echo base_url();?>assest/btimages/ADHIC.png" type="image/x-icon" />
+	<link rel="icon" href="<?php echo base_url();?>assest/images/all.png" type="image/x-icon" />
 	<!-- mobile responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -28,6 +28,7 @@
 	<link id="style-switch" href="<?php echo base_url();?>assest/website/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 	<!-- Main Stylesheet -->
 	<link href="<?php echo base_url();?>assest/website/css/style.css" rel="stylesheet">
+	
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
 	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">

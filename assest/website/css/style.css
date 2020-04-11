@@ -339,15 +339,15 @@ blockquote {
 }
 
 .parallax2 {
-  background: url(../images/parallax/parallax2.jpg) no-repeat;
+  background: url(..assest/images/parallax/parallax2.jpg) no-repeat;
 }
 
 .parallax3 {
-  background: url(../images/parallax/parallax3.jpg) no-repeat;
+  background: url(..assest/images/parallax/parallax3.jpg) no-repeat;
 }
 
 .parallax4 {
-  background: url(../images/parallax/parallax4.jpg) no-repeat;
+  background: url(..assest/images/parallax/parallax4.jpg) no-repeat;
 }
 
 .parallax .btn.solid {

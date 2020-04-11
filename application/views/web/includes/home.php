@@ -157,7 +157,7 @@
       <div class="col-sm-3 web-design isotope-item">
         <div class="grid">
           <figure class="m-0 effect-oscar">
-            <img src="images/portfolio/portfolio1.jpg" alt="">
+            <img src="<?php echo base_url();?>assest/images/portfolio/portfolio1.jpg" alt="">
             <figcaption>
               <h3>Startup Business</h3>
               <a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
@@ -171,7 +171,7 @@
       <div class="col-sm-3 development isotope-item">
         <div class="grid">
           <figure class="m-0 effect-oscar">
-            <img src="images/portfolio/portfolio2.jpg" alt="">
+            <img src="<?php echo base_url();?>assest/images/portfolio/portfolio2.jpg" alt="">
             <figcaption>
               <h3>Easy to Lanunch</h3>
               <a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
@@ -567,7 +567,7 @@
 <!--/ Team end -->
 
 <!-- Parallax 1 start -->
-<section class="parallax parallax1">
+<section class="parallax " style="background-image: url('<?php echo base_url();?>assest/images/parallax/parallax1.jpg');background-repeat:no-repeat;">
   <div class="parallax-overlay"></div>
   <div class="container">
     <div class="row">
@@ -665,7 +665,7 @@
 
 
 <!-- Testimonial start-->
-<section class="testimonial parallax parallax2">
+<section class="testimonial parallax" style="background-image: url('<?php echo base_url();?>assest/images/parallax/parallax2.jpg');background-repeat:no-repeat;">
   <div class="parallax-overlay"></div>
   <div class="container">
     <div class="row">
