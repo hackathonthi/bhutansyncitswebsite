@@ -665,7 +665,7 @@
 <!-- Testimonial start-->
 <section class="testimonial parallax" style="background-image: url('<?php echo base_url();?>assest/images/parallax/parallax2.jpg');background-repeat:no-repeat;">
 
-  <div class="parallax-overlay "style="background-image: url('<?php echo base_url();?>assest/images/overaly.png');"></div>
+  <div class="parallax-overlay " style="background-image: url('<?php echo base_url();?>assest/images/overaly.png');"></div>
   <div class="container">
     <div class="row">
       <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">

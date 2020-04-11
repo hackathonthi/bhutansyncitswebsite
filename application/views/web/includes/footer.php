@@ -1,4 +1,4 @@
-<footer id="footer" class="footer">
+<footer id="footer" class="footer" style="background-image: url('<?php echo base_url();?>assest/images/footer-bg.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-12 footer-widget">
