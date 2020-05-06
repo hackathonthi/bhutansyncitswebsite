@@ -1,37 +1,137 @@
 
-<nav class="main-header navbar navbar-expand navbar-white navbar-light">
-  <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
-      </li>
-    <li class="nav-item d-none d-sm-inline-block">
-      <a href="<?php echo base_url();?>index.php?baseController/dashboard" class="nav-link">Home</a>
-    </li>
-  </ul>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  <header class="main-header">
+    <a href="index2.html" class="logo">
+      <span class="logo-lg"><b>Bhutansync</b>ITS</span>
+    </a>
+    <nav class="navbar navbar-static-top">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
 
-  <ul class="navbar-nav ml-auto">
-    <li class="nav-item dropdown">
-        <a class="nav-link" data-toggle="dropdown" href="#">
-          <i class="fa fa-user-circle" style="font-size:28px; color: red">
-          </i>
-        <div class="dropdown-menu dropdown-menu dropdown-menu-right">
-          <a href="#" class="">
-            <div class="user text-center">
-              <img src="<?php echo base_url();?>uploads/user1-128x128.jpg" style="width:80px" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-              <hr>
-              <div class="user-body">
-                
-                 <a href="#" class="btn btn-success" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadPage/profie/<?php echo $this->session->userdata('User_table_id');?>')">Profile</a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown messages-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-envelope-o"></i>
+              <span class="label label-success">4</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 4 messages</li>
+              <li>
+                <ul class="menu">
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="<?php echo base_url();?>assest/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Support Team
+                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="<?php echo base_url();?>assest/admin/dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        AdminLTE Design Team
+                        <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="<?php echo base_url();?>assest/admin/dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Developers
+                        <small><i class="fa fa-clock-o"></i> Today</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="<?php echo base_url();?>assest/admin/dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Sales Department
+                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="<?php echo base_url();?>assest/admin/dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Reviewers
+                        <small><i class="fa fa-clock-o"></i> 2 days</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer"><a href="#">See All Messages</a></li>
+            </ul>
+          </li>
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="<?php echo base_url();?>assest/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">BADALA</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="<?php echo base_url();?>assest/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
-                 <a href="#" class="btn btn-warning pull-right" data-toggle="modal" data-target="#modal-logout"> Sign out</a>
-              </div>
-            </div>
-          </a>
-        </div>
-      </li>
-  </ul>
-</nav>
-</header>
+                <p>
+                  BADALA - CHEIF EXECUTIVE OFFICER
+                  <small>Member since Nov. 2018</small>
+                </p>
+              </li>
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Followers</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Sales</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Friends</a>
+                  </div>
+                </div>
+              </li>
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadPage/useraccount/<?php echo $this->session->userdata('User_table_id');?>')">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat"data-toggle="modal" data-target="#modal-logout">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 <div class="modal fade" id="modal-logout">
         <div class="modal-dialog">
           <div class="modal-content ">
@@ -50,5 +150,8 @@
           </div>
         </div>
   </div>
+
+
+
       
      

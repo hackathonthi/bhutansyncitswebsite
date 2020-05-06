@@ -20,9 +20,8 @@
 				</ol>
 			</nav>
 		</div>
-	</div><!-- Subpage title end -->
-</div><!-- Banner area end -->
-
+	</div>
+</div>
 <!-- Main container start -->
 <section id="main-container">
 	<div class="container">
@@ -71,8 +70,8 @@
 						<i class="fa fa-trophy icon-xl text-primary mb-4"></i>
 						<h3>We Are Awwared Winning Company</h3>
 						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
-							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
+						gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+						sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
 					</div>
 					<div class="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_2" role="tabpanel">
 						<i class="fa fa-briefcase icon-xl text-primary mb-4"></i>

@@ -11,9 +11,9 @@
 		     	</div>
 			</div>
 			
-    <?php
-		    $this->load->view('admin/footer.php');
-		?> 
+	<?php
+    $this->load->view('admin/footer.php');
+	?> 
     </div> 
 	</body>
 

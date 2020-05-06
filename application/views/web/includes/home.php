@@ -3,7 +3,7 @@
     <ul class="cd-hero-slider">
       <li class="selected">
         <div class="overlay2">
-          <img class="" src="<?php echo base_url();?>assest/images/slider/bg1.jpg" alt="slider">
+          <img class="" src="<?php echo base_url();?>assest/images/slider/bg4.jpg" alt="slider">
         </div>
         <div class="cd-full-width">
           <h2>Need To Invent The Future!</h2>
@@ -567,7 +567,7 @@
 <!--/ Team end -->
 
 <!-- Parallax 1 start -->
-<section class="parallax " style="background-image: url('<?php echo base_url();?>assest/images/parallax/parallax1.jpg');background-repeat:no-repeat;">
+<section class="parallax " style="background-color: black;">
   <div class="parallax-overlay"></div>
   <div class="container">
     <div class="row">
@@ -583,7 +583,6 @@
   </div><!-- Container end -->
 </section><!-- Parallax 1 end -->
 
-<!-- Pricing table start -->
 <section id="pricing" class="pricing">
   <div class="container">
     <div class="row">
@@ -591,9 +590,8 @@
         <span class="title-icon float-left"><i class="fa fa-university"></i></span>
         <h2 class="title">Pricing Table <span class="title-desc">We Love to Work with Passion</span></h2>
       </div>
-    </div><!-- Title row end -->
+    </div>
     <div class="row">
-      <!-- plan start -->
       <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
         <div class="plan text-center">
           <span class="plan-name">Basic <small>Monthly plan</small></span>
@@ -607,9 +605,7 @@
           </ul>
           <a class="btn btn-primary" href="#.">Sign Up</a>
         </div>
-      </div><!-- plan end -->
-
-      <!-- plan start -->
+      </div>
       <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1s">
         <div class="plan text-center">
           <span class="plan-name">Standared <small>Monthly plan</small></span>
@@ -623,9 +619,7 @@
           </ul>
           <a class="btn btn-primary" href="#.">Sign Up</a>
         </div>
-      </div><!-- plan end -->
-
-      <!-- plan start -->
+      </div>
       <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.4s">
         <div class="plan text-center featured">
           <span class="plan-name">Professional <small>Monthly plan</small></span>
@@ -639,9 +633,7 @@
           </ul>
           <a class="btn btn-primary" href="#.">Sign Up</a>
         </div>
-      </div><!-- plan end -->
-
-      <!-- plan start -->
+      </div>
       <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
         <div class="plan text-center">
           <span class="plan-name">Premium <small>Monthly plan</small></span>
@@ -655,17 +647,13 @@
           </ul>
           <a class="btn btn-primary" href="#.">Sign Up</a>
         </div>
-      </div><!-- plan end -->
+      </div>
     </div>
-    <!--/ Content row end -->
   </div>
-  <!--/  Container end-->
 </section>
-<!--/ Pricing table end -->
-<!-- Testimonial start-->
 <section class="testimonial parallax" style="background-image: url('<?php echo base_url();?>assest/images/parallax/parallax2.jpg');background-repeat:no-repeat;">
 
-  <div class="parallax-overlay " style="background-image: url('<?php echo base_url();?>assest/images/overaly.png');"></div>
+  <div class="parallax-overlay"></div>
   <div class="container">
     <div class="row">
       <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
@@ -709,16 +697,9 @@
           </div>
         </div>
       </div>
-      <!--/ Testimonial carousel end-->
     </div>
-    <!--/ Row end-->
   </div>
-  <!--/  Container end-->
 </section>
-<!--/ Testimonial end-->
-
-
-<!-- Clients start -->
 <section id="clients" class="clients">
   <div class="container">
     <div class="row wow fadeInLeft">
@@ -763,8 +744,7 @@
             <img src="<?php echo base_url();?>assest/images/clients/client8.png" alt="client">
           </a>
         </figure>
-      </div><!-- Owl carousel end -->
-    </div><!-- Main row end -->
+      </div>
+    </div>
   </div>
-  <!--/ Container end -->
 </section>

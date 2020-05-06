@@ -32,4 +32,5 @@
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
 	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
 </head>

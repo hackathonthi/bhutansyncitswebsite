@@ -1,6 +1,6 @@
 <body>
 <div class="body-inner">
-<header id="header" class="fixed-top header" role="banner">
+<header id="header" class="fixed-top header" role="banner" style="background: #191919">
     <a class="navbar-brand navbar-bg" href="index.html"><img class="img-fluid float-right" src="<?php echo base_url();?>assest/images/weblogo.png" alt="logo"></a>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -21,23 +21,30 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="<?php echo base_url(); ?>index.php?baseController/loadpage/about">About Us</a>
-                            <a class="dropdown-item" href="<?php echo base_url(); ?>web/service/service">Services</a>
-                            <a class="dropdown-item" href="career.html">Career</a>
-                            <a class="dropdown-item" href="testimonial.html">Testimonials</a>
-                            <a class="dropdown-item" href="faq.html">Faq</a>
+                            <a class="dropdown-item" href="<?php echo base_url(); ?>index.php?baseController/loadpage/service">Services</a>
+                            <a class="dropdown-item" href="<?php echo base_url(); ?>index.php?baseController/loadpage/career">Career</a>
+                            <a class="dropdown-item" href="<?php echo base_url(); ?>index.php?baseController/loadpage/testimonial">Testimonials</a>
+                            <a class="dropdown-item" href="<?php echo base_url(); ?>index.php?baseController/loadpage/faq">Faq</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Portfolio</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php?baseController/loadpage/portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Pricing</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php?baseController/loadpage/pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Blog</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php?baseController/loadpage/blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php?baseController/loadpage/contact">Contact</a>
+                    </li>
+                    <!----------
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php?baseController/loadpage/signup">Get Registred</a>
+                    </li>---------------->
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url(); ?>index.php?baseController/loadpage/login">Login</a>
                     </li>
                 </ul>
             </div>

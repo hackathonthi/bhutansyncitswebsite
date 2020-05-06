@@ -11,13 +11,48 @@ class BaseController extends CI_Controller {
         //die($param1);
         if($param1=="about" || $param1=="faq"){
             $page_data['linktype']=$param1;
+            $this->load->view('web/pages/about', $page_data);   
+        }
+        if($param1=="blog"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/blog/blog', $page_data);   
+        }
+        if($param1=="contact"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/contact/contact', $page_data);   
+        }
+        if($param1=="team"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/pages/team', $page_data);   
+        }
+        if($param1=="testimonail"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/pages/testimonail', $page_data);   
+        }
+        if($param1=="portfolio"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/portfolio/portfolio', $page_data);   
+        }
+        if($param1=="pricing"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/pricing/pricing', $page_data);   
+        }
+		if($param1=="service"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/service/service', $page_data);   
+        }
+        if($param1=="career"){
+            $page_data['linktype']=$param1;
             $this->load->view('web/pages/career', $page_data);   
         }
-        if($param1=="voice"){
+        if($param1=="login"){
             $page_data['linktype']=$param1;
-            $this->load->view('web/about/about', $page_data);   
+            $this->load->view('web/login/login', $page_data);   
         }
-		
+        if($param1=="signup"){
+            $page_data['linktype']=$param1;
+            $this->load->view('web/register/signup', $page_data);   
+        }
 	}
     function loginuser(){
         if($this->input->post('EmailId')!="" &&  $this->input->post('password')!=""){
@@ -44,7 +79,6 @@ class BaseController extends CI_Controller {
                     $page_data['message']='Invalid email and password';
                     $this->load->view('web/acknowledgement', $page_data); 
                 }
-                              
             } 
             else{
                 $page_data['message']='Invalid email ';
@@ -63,7 +97,6 @@ class BaseController extends CI_Controller {
             redirect(base_url(), 'refresh');
         }
         else{
-            $page_data['yearselected'] =$year;
             $this->load->view('admin/dashboard', $page_data);
         }
     }
