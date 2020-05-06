@@ -1,6 +1,6 @@
 <body>
 <div class="body-inner">
-<header id="header" class="fixed-top header" role="banner" style="background: #191919">
+<header id="header" class="fixed-top header" role="banner" style="background: red">
     <a class="navbar-brand navbar-bg" href="index.html"><img class="img-fluid float-right" src="<?php echo base_url();?>assest/images/weblogo.png" alt="logo"></a>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">

@@ -7,7 +7,7 @@
   <div id="mainpublicContent">
  
 <div id="banner-area">
-	<img src="images/banner/banner1.jpg" alt="" />
+	<img src="<?php echo base_url();?>assest/images/banner/banner1.jpg" alt="" />
 	<div class="parallax-overlay"></div>
 	<!-- Subpage title start -->
 	<div class="banner-title-content">
@@ -114,7 +114,7 @@
 
 
 	<!-- Counter Strat -->
-	<div class="ts_counter_bg parallax parallax2">
+	<div class="ts_counter_bg parallax parallax2" style="background-color: black;">
 		<div class="parallax-overlay"></div>
 		<div class="container">
 			<div class="row wow fadeInLeft text-center">
@@ -181,7 +181,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team1.jpg" alt="">
+							<img src="<?php echo base_url();?>assest/images/team/team1.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -202,7 +202,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team2.jpg" alt="">
+							<img src="<?php echo base_url();?>assest/images/team/team2.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -223,7 +223,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team3.jpg" alt="">
+							<img src="<?php echo base_url();?>assest/images/team/team3.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
@@ -244,7 +244,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team animate wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team4.jpg" alt="">
+							<img src="<?php echo base_url();?>assest/images/team/team4.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
