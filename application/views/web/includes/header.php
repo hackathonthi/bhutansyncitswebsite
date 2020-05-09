@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Bhutansync Its</title>
-	<link rel="icon" href="<?php echo base_url();?>assest/images/all.png" type="image/x-icon" />
+	<link rel="icon" href="<?php echo base_url();?>assest/images/favicon.png" type="image/x-icon" />
 	<!-- mobile responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -27,5 +27,5 @@
 	<!-- Style Swicther -->
 	<link id="style-switch" href="<?php echo base_url();?>assest/website/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 	<!-- Main Stylesheet -->
-	<link href="<?php echo base_url();?>assest/website/css/style.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>assest/website/css/custom.css" rel="stylesheet">
 </head>

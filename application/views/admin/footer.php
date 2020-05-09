@@ -6,6 +6,8 @@
 </footer>
 <script src="<?php echo base_url();?>assest/jquery-3.2.1.min.js"></script>
 <script src="<?php echo base_url();?>assest/JqueryAjaxFormSubmit.js"></script>
+<script src="<?php echo base_url();?>assest/jquery.form.js"></script>
+<script src="<?php echo base_url();?>assest/jquery-blockUI.js"></script>
 
 <script type="text/javascript"> 
   function removeer(errid){
@@ -85,6 +87,8 @@
 <script src="<?php echo base_url();?>assest/admin/dist/js/adminlte.min.js"></script>
 <script src="<?php echo base_url();?>assest/admin/dist/js/demo.js"></script>
 <script src="<?php echo base_url();?>assest/admin/plugins/timepicker/bootstrap-timepicker.min.js"></script>
+<!---------------------------------------------------------------
 <script src="http://malsup.github.io/jquery.blockUI.js"></script>
 <script src="http://malsup.github.com/jquery.form.js"></script>
+-------------------------------------------------------------->
 <script src="<?php echo base_url();?>assest/admin/summernote/summernote-lite.js"></script>

@@ -24,39 +24,44 @@ class AdminController extends CI_Controller {
        	$page_data['messagefail']="";
        	$data['Password']=password_hash($this->input->post('Password'), PASSWORD_BCRYPT);
        }
-       function loadservice($page="",$id=""){
-        $page_data['ServiceCategory'] = $this->db->get_where('t_service',array('service_type'))->result_array();
-        $page_data['Category']=$this->db->get_where('t_service_category',array('category_name'))->result_array();
-          $this->load->view('admin/service/'.$page,$page_data);
-       }
-        function loadgallery($page=""){
+    function loadservice($page="",$id=""){
+      $page_data['ServiceCategory'] = $this->db->get_where('t_service',array('service_type'))->result_array();
+      $page_data['Category']=$this->db->get_where('t_service_category',array('category_name'))->result_array();
+      $page_data['serviceList'] = $this->db->get_where('t_service_category',array('status'=>'Y'))->result_array();
+        $this->load->view('admin/service/'.$page,$page_data);
+     }
+    function loadgallery($page=""){
 
-            $this->load->view('admin/gallery/'.$page);
-       }
-       function loadfile($page=""){
+          $this->load->view('admin/gallery/'.$page);
+     }
+     function loadfile($page=""){
 
-            $this->load->view('admin/download/'.$page);
-       }
-       function loadvideo($page=""){
+          $this->load->view('admin/download/'.$page);
+     }
+     function loadvideo($page=""){
 
-            $this->load->view('admin/youtube/'.$page);
-       }
-       function loadevents($page=""){
+          $this->load->view('admin/youtube/'.$page);
+     }
+     function loadevents($page=""){
 
-            $this->load->view('admin/events/'.$page);
-       }
-       function loadclients($page=""){
+          $this->load->view('admin/events/'.$page);
+     }
+     function loadclients($page=""){
 
-            $this->load->view('admin/clients/'.$page);
-       }
-       function loadstaff($page=""){
+          $this->load->view('admin/clients/'.$page);
+     }
+     function loadstaff($page=""){
 
-            $this->load->view('admin/team/'.$page);
-       }
-       function loadsystem($page=""){
+          $this->load->view('admin/team/'.$page);
+     }
+     function loadsystem($page=""){
 
-            $this->load->view('admin/systemuser/'.$page);
-       }
+          $this->load->view('admin/systemuser/'.$page);
+     }
+     function loadconfig($page=""){
+
+          $this->load->view('admin/configuration/'.$page);
+     }
 
     function addService(){
         $page_data['message']="";

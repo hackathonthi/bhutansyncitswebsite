@@ -25,8 +25,8 @@
 	<section id="main-container">
 		<div class="container">
 			<div class=" form-group row " >
-				<div class="col-md-3 "></div>
-				<div class="col-md-6 col-md-offset-6">
+				<div class="col-md-4 "></div>
+				<div class="col-md-4 col-md-offset-4">
 					<?php echo form_open('?baseController/loginuser' , array('class' =>'form-horizontal','id' => 'loginform'));?>
 					
 					<input name="EmailId" id="EmailId" onclick="removeerr('EmailId_err')" placeholder="Email Id / Username" type="text" class="form-control">

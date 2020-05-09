@@ -40,27 +40,27 @@
 					<a class="animated fadeIn nav-link py-4 active d-flex align-items-center" data-toggle="pill" href="#tab_1"
 						role="tab" aria-selected="true">
 						<i class="fa fa-info-circle mr-4"></i>
-						<span class="h4 mb-0 font-weight-bold">Who Are We</span>
+						<span class="h5 mb-0 font-weight-bold">Who Are We</span>
 					</a>
 					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_2" role="tab"
 						aria-selected="true">
 						<i class="fa fa-briefcase mr-4"></i>
-						<span class="h4 mb-0 font-weight-bold">OUR COMPANY</span>
+						<span class="h5 mb-0 font-weight-bold">Our Company</span>
 					</a>
 					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_3" role="tab"
 						aria-selected="true">
 						<i class="fa fa-android mr-4"></i>
-						<span class="h4 mb-0 font-weight-bold">What We Do</span>
+						<span class="h5 mb-0 font-weight-bold">What We Do</span>
 					</a>
 					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_4" role="tab"
 						aria-selected="true">
 						<i class="fa fa-pagelines mr-4"></i>
-						<span class="h4 mb-0 font-weight-bold">Modern Design</span>
+						<span class="h5 mb-0 font-weight-bold">Modern Design</span>
 					</a>
 					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_5" role="tab"
 						aria-selected="true">
 						<i class="fa fa-support mr-4"></i>
-						<span class="h4 mb-0 font-weight-bold">Dedicated Support</span>
+						<span class="h5 mb-0 font-weight-bold">Dedicated Support</span>
 					</a>
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 
 
 	<!-- Counter Strat -->
-	<div class="ts_counter_bg parallax parallax2" style="background-color: black;">
+	<div class="ts_counter_bg parallax parallax2">
 		<div class="parallax-overlay"></div>
 		<div class="container">
 			<div class="row wow fadeInLeft text-center">

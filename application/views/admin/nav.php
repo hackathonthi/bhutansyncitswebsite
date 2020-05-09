@@ -128,11 +128,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> General Configuration</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Official Data Update</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Email Setting</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Change Logo</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Change Image Footer</a></li>
+            <li><a href="#" class="nav-link" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadconfig/generalconfig/')"><i class="fa fa-circle-o"></i> General Configuration</a></li>
+            <li><a href="#" class="nav-link" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadconfig/Officialdata/')"><i class="fa fa-circle-o"></i> Official Data Update</a></li>
+            <li><a href="#" class="nav-link" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadconfig/emailsetting/')"><i class="fa fa-circle-o"></i> Email Setting</a></li>
+            <li><a href="#" class="nav-link" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadconfig/department/')"><i class="fa fa-circle-o"></i> Change Logo</a></li>
+            <li><a href="#" class="nav-link" onclick="loadpage('<?php echo base_url();?>index.php?adminController/loadconfig/department/')"><i class="fa fa-circle-o"></i> Change Image Footer</a></li>
           </ul>
         </li>
       </ul>

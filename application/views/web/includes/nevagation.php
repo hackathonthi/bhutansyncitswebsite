@@ -1,12 +1,12 @@
 <body>
 <div class="body-inner">
-<header id="header" class="fixed-top header" role="banner" style="background: red">
-    <a class="navbar-brand navbar-bg" href="index.html"><img class="img-fluid float-right" src="<?php echo base_url();?>assest/images/weblogo.png" alt="logo"></a>
+<header id="header" class="fixed-top header4" role="banner">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <button class="navbar-toggler ml-auto border-0 rounded-0 text-white" type="button" data-toggle="collapse"
+        <nav class="navbar navbar-expand-lg navbar-light px-4 py-2">
+            <a class="navbar-brand" href="index.html"><img class="img-fluid" src="<?php echo base_url();?>assest/images/dlogo.png" alt="logo"></a>
+            <button class="navbar-toggler ml-auto border-0 rounded-0 text-dark" type="button" data-toggle="collapse"
                 data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa fa-bars"></span> 
+                <span class="fa fa-bars"></span>
             </button>
 
             <div class="collapse navbar-collapse text-center" id="navigation">

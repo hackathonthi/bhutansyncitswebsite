@@ -21,10 +21,15 @@
                       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <label>Type of Services:</label>
                           <select name="service_type" class="form-control" id="service_type" onclick="removeer('service_type_err')">
-                        <span id="service_type_err" class="text-danger"></span>
-                            <option value="">Select</option>
-                            <option value="Website Development">Website Development</option>
-                            <option value="Mobile Application Development">Mobile Application Development</option>}
+                          <span id="service_type_err" class="text-danger"></span>
+                          <option value=""> Service Type</option>
+                            <?php  
+                            foreach($serviceList as $i=> $com):
+                            ?>
+                            <option value="<?php echo$com['category_id'];?>"> <?php echo$com['category_name'];?></option>
+                            <?php 
+                            endforeach; 
+                            ?>
                           </select>
                       </div>
                       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">

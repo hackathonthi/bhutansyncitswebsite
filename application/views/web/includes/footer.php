@@ -127,8 +127,8 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div class="copyright-info">
-            &copy; Copyright 2019 Themefisher. <span>Designed by <a
-                href="https://themefisher.com">Themefisher.com</a></span>
+            &copy; Copyright 2020 BhutanSync ITs. <span>Designed by <a
+                href="https://themefisher.com">Bhutansyncits.com</a></span>
           </div>
         </div>
       </div>

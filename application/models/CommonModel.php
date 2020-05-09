@@ -20,5 +20,9 @@ class CommonModel extends CI_Model{
     $query =$this->db->query("SELECT  f.`category_name`, f.`slug` FROM t_service_category f WHERE f.`category_id`='".$id."'")->row();
     return $query;
   }
+  function getserviceList($id=""){
+    $query =$this->db->query("SELECT  f.`category_name` FROM t_service_category f WHERE f.`category_id`='".$id."'")->row();
+    return $query;
+  }
 }
 
